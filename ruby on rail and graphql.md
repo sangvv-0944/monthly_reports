@@ -31,6 +31,6 @@ rails new new_app --api
 ```
 Quá quen thuộc rồi đúng không :)) Hãy thêm vài flag để xóa nhưng thứ không cần thiêt nào:
 ```
-$ rails new demo-graphql-ruby-api --skip-yarn --skip-action-mailer --skip-action-cable --skip-sprockets --skip-coffee --skip-javascript --skip-turbolinks --api
+$ rails new demo-graphql-ruby-api --skip-yarn --skip-sprockets --skip-coffee --skip-javascript --skip-turbolinks -d mysql --api
 
 ```
