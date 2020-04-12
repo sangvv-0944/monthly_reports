@@ -1,5 +1,5 @@
 # Ruby on rails và Graphql tạo Query đầu tiên
-===
+
 Trong quá trình phát triển REST API mỗi lần phía client cần sửa thêm hay bớt 1 thuộc tính nhỏ nhưng mình luôn phải sửa
 trên server để đáp ứng được nhu cầu. Hoặc cùng 1 api dùng chung nhưng bên này chỉ dùng những trường này, chổ khác lại sử dụng trường khác dễ 
 dẫn đến thừa dữ liệu => giảm tải dữ liệu tăng performance
