@@ -172,4 +172,5 @@ Và đừng quên hãy bật server trước nhé `rails s`
 ## Tổng kết
 Qua ví dụ đơn giản về sử dụng GraphQL trong Rails chúng ta chỉ get data chỉ qua 1 endpoint duy nhất đó là /graphql khi muốn thêm trường hay bỏ bớt một trường cực kí đơn giản đúng không nào?
 Và đây chỉ là mới chỉ có get (Read) còn 1 phần quan trọng nữa đó thêm sửa xóa thông qua **Mutations** ở phần sau nhé.
+
 Repo example: https://github.com/sangvv-0944/graphql-rails-example
