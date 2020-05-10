@@ -1,5 +1,7 @@
 Ở phần trước chúng ta đã học được cách sử  dụng câu query đầu tiên như thế nào, hôm nay tiếp tục 1 kiểu request nữa đó là: Mutations
 
+Bài trước: https://github.com/sangvv-0944/monthly_reports/blob/master/ruby%20on%20rail%20and%20graphql%20p1.md
+
 ## Vậy mutations Graphql là cái gì?
 
 Theo docs thì nó được định nghĩa như sau
@@ -156,6 +158,6 @@ Trường description required nhưng gửi lên sẽ báo lỗi như sau:
 ## Tổng kết
 Ở đây chỉ có create còn thiếu update và delete, nhưng mình đã giải thích khá chi tiết rồi, tự triển tiếp phần tiếp theo =)).
 
-Link repo:
+Link repo: https://github.com/sangvv-0944/graphql-rails-example
 
 Bài viết tiếp theo sẽ về authenticate trong rails graphql
