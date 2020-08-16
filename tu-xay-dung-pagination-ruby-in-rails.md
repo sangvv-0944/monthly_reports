@@ -71,7 +71,7 @@ end
 ```
  Sử dụng:  Paginator.new(User.all.group("...."), param[:page], params[:per_page))
 
-Các hàm được xây dựng tương tự như karminary nên chúng ta vẫn có thể sử dụng helper `paginate` ở view 1 cách bình thường.
+Các hàm được xây dựng tương tự như kaminari nên chúng ta vẫn có thể sử dụng helper `paginate` ở view 1 cách bình thường.
 
 Chúng ta sẽ count số lượng record thông qua subquery và sử dụng nó để tính các `total_pages`, `total_count`
 
