@@ -44,7 +44,7 @@ touch .circleci/config.yml
 
 Đây là file config example cho dự án RoR
 
-```yaml
+```
 version: 2.1
 
 executors:
@@ -123,3 +123,6 @@ Lưu ý: Phần executors và commands này yêu cầu version circelCI là 2.1
 - Phần cuối cùng là `workfolows` ở đây chúng ta sẽ định nghĩa chạy jobs nào ở phía trên sẽ chạy chỉ job build mà thôi, ở đây có rất nhiều options rất hay như `schedule`, `fileters`, `branches` config chỉ chạy branch nào hoặc hoặc không chạy branch nào, hẹn giờ chạy... Muốn tìm hiểu thêm nhiều config [ở đây](https://circleci.com/docs/2.0/configuration-reference/#workflows)
  
 ================================================================================
+
+Repo setup: https://github.com/sangvo/docker-circleci-example
+
